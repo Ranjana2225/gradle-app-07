@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'https://github.com/Ranjana2225/gradle-app-07.git'
+                git branch: 'master',
+                    url:'https://github.com/Ranjana2225/gradle-app-07.git'
             }
         }
 
